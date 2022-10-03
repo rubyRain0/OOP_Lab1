@@ -5,7 +5,7 @@
 int main()
 {
 	setlocale(0, "");
-	Triangle triangleA(3, 3, 60);
+	Triangle triangleA(3, 5, 33);
 	std::cout << triangleA.getBC() << std::endl;
 	std::cout << triangleA.getAngleC() << std::endl;
 	std::cout << triangleA.getSquare() << std::endl;
